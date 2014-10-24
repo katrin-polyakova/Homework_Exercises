@@ -12,22 +12,34 @@
 	<dict>
 		<key>9EDCB052FE257A11DEC6573512F013DC7BEDF836</key>
 		<string>https://github.com/katrin-polyakova/Syntax.git</string>
+		<key>A688A6C8BB0D29A8D20BF2C17CC6E40B6F95E056</key>
+		<string>https://github.com/katrin-polyakova/Homework_Exercises.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Exercises/Exercises_Homework/Exercises_Homework.xcodeproj</string>
+	<string>Exercises_Homework.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9EDCB052FE257A11DEC6573512F013DC7BEDF836</key>
-		<string>../../../..</string>
+		<string>../../../homework</string>
+		<key>A688A6C8BB0D29A8D20BF2C17CC6E40B6F95E056</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/katrin-polyakova/Syntax.git</string>
+	<string>https://github.com/katrin-polyakova/Homework_Exercises.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9EDCB052FE257A11DEC6573512F013DC7BEDF836</string>
+	<string>A688A6C8BB0D29A8D20BF2C17CC6E40B6F95E056</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A688A6C8BB0D29A8D20BF2C17CC6E40B6F95E056</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Exercises_Homework2</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

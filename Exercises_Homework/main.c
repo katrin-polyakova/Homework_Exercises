@@ -18,6 +18,7 @@ int Sum_Max_and_Min (int a, int b, int c);
 int Is_Sum_Positive (int x, int y, int z);
 float Best_Result_of_Swimming (float u, float v, float w);
 int Is_Number_Even (int number);
+float distanceBetweenPoints(int x1, int y1, int x2, int y2);
 float Perimeter_of_Triangle (int x1, int y1, int x2, int y2, int x3, int y3);
 int Is_Year_Leap (int year);
 
@@ -166,11 +167,17 @@ int Is_Number_Even (int number)
     }
     return result;
 }
+float distanceBetweenPoints(int x1, int y1, int x2, int y2)
+{
+    float d = sqrtf(powf((x2-x1),2)+powf((y2-y1),2));
+    
+    return d;
+}
 float Perimeter_of_Triangle (int x1, int y1, int x2, int y2, int x3, int y3)
 {
-    float d1 = sqrtf(powf((x2-x1),2)+powf((y2-y1),2));
-    float d2 = sqrtf(powf((x3-x2),2)+powf((y3-y2),2));
-    float d3 = sqrtf(powf((x3-x1),2)+powf((y3-y1),2));
+    float d1 = distanceBetweenPoints(x1, y1, x2, y2);
+    float d2 = distanceBetweenPoints(x3, y3, x2, y2);
+    float d3 = distanceBetweenPoints(x3, y3, x1, y1);
     
     float Perimeter = d1+d2+d3;
     
